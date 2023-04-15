@@ -1,0 +1,41 @@
+body {
+    background-color: #9a9a9a;
+}
+
+header {
+    background-color: #FFFFFF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: Times, Arial;
+    color: #000000;
+}
+
+h1 {
+    font-size: 36pt;
+}
+
+h3 {
+    font-size: 23pt;
+}
+
+p {
+    font-size: 10pt;
+}
+
+main {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+aside {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #72d4bb;
+    border-radius: 10px;
+}
