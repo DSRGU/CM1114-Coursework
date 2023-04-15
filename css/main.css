@@ -59,3 +59,25 @@ Nav li:hover {
 .active {
     background-color: #72bcd4;
 }
+
+table {
+    font-family: Times, Arial;
+    border-collapse: collapse
+}
+
+table td, table th {
+    border: 2px, solid, #F0F0F0;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #9a9a9a;
+}
+
+table th {
+    background-color: #72d4bb;
+    color: #F0F0F0;
+}
