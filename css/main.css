@@ -107,8 +107,7 @@ nav li:hover {
 
 #left-col {
     float: left;
-    width: 50%;
-    padding: 10px;
+    width: 25%;
     height: 300px;
     background-color: #FFFFFF;
 }
@@ -116,7 +115,6 @@ nav li:hover {
 #right-col {
     float: right;
     width: 50%;
-    padding: 10px;
     height: 300px;
     background-color: #FFFFFF;
 }
