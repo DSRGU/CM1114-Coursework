@@ -104,3 +104,11 @@ nav li a {
 nav li:hover {
     background-color: #000000;
 }
+
+#left-col {
+    float: left;
+}
+
+#right-col {
+    float: right;
+}
