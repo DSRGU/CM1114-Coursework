@@ -109,10 +109,14 @@ nav li:hover {
     float: left;
     width: 60%;
     background-color: #FFFFFF;
+    height: 500px;
+    border-radius: 10px;
 }
 
 #right-col {
     float: right;
     width: 40%;
     background-color: #FFFFFF;
+    height: 500px;
+    border-radius: 10px;
 }
