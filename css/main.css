@@ -40,22 +40,6 @@ footer {
     border-radius: 10px;
 }
 
-nav li {
-    border: 2px, solid, #72bcd4;
-    background-color: #72d4bb;
-    list-style-type: none; 
-}
-
-nav li a {
-    color: #FFFFFF;
-    text-align: center;
-    text-decoration: none;
-}
-
-Nav li:hover {
-    background-color: #000000;
-}
-
 .active {
     background-color: #72bcd4;
 }
