@@ -9,7 +9,7 @@ header {
 }
 
 h1, h2, h3, h4, h5, h6, p {
-    font-family: Times, Arial;
+    font-family: Times Arial;
     color: #000000;
 }
 
@@ -45,7 +45,7 @@ footer {
 }
 
 table {
-    font-family: Times, Arial;
+    font-family: Times Arial;
     border-collapse: collapse
 }
 
@@ -88,12 +88,12 @@ nav ul {
 }
 
 nav li {
-    border: 2px, solid, #9a9a9a;
+    border: 2pt solid #9a9a9a;
     background-color: #72d4bb;
     list-style-type: none;
     float: left;
     width: 16%;
-    padding: 7px;
+    padding: 5px;
 }
 
 nav li a {
