@@ -107,8 +107,14 @@ nav li:hover {
 
 #left-col {
     float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
 }
 
 #right-col {
     float: right;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
 }
