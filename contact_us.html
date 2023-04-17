@@ -17,7 +17,7 @@
         <li class="active"><a href="current_members.html">Current Members</a></li>
         <li class="active"><a href="event_calendar.html">Events</a></li>
         <li class="active"><a href="contact_us.html">Contact us</a></li>
-    </br>
+        </br>
     </nav>
 
     <main>
@@ -41,14 +41,26 @@
                         <input type="text" name="comment" value="" /> <br />
                         <label for="file">Attach file(s):</label>
                         <input type="file" name="file" multiple>
+                        <!--- <button type="button" onclick='document.getElementById("form_outcome").innerHTML="Form has been sent successfully!"'>Submit</button> -->
+
+                        <button type="button"
+                            onclick='send_form("form_outcome", "Form has been sent successfully!")'>Submit</button>
+                        <div id="form_outcome"></div>
+
 
                     </fieldset>
                 </form>
+                <div>
+                    <p id="form_outcome"></p>
+                </div>
+                <div>
+                    <p></p>
+                </div>
             </div>
             <div id="right-col">
                 <img src="images/twitter.jpg" alt="twitter" />
-           </div>
-        </div>   
+            </div>
+        </div>
     </main>
 
     <aside> </aside>
