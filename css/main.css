@@ -120,3 +120,19 @@ nav li:hover {
     height: 500px;
     border-radius: 10px;
 }
+
+header {
+    margin: 3px;
+}
+
+aside {
+    margin: 3px;
+}
+
+main {
+    margin: 3px;
+}
+
+footer {
+    margin: 3px;
+}
