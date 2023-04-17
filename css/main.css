@@ -143,3 +143,12 @@ footer {
     object-fit: cover;
 }
 
+.carousel-control-next img {
+    width: 30px;
+    height: 30px;
+}
+
+.carousel-control-prev img {
+    width: 30px;
+    height: 30px;
+}
