@@ -143,10 +143,3 @@ footer {
     object-fit: cover;
 }
 
-carousel-control-next::before {
-    background-image: url(images/arrow.png);
-}
-
-carousel-control-prev::before {
-    background-image: url(images/arrowprev.png);
-}
