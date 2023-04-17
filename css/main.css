@@ -136,3 +136,9 @@ main {
 footer {
     margin: 3px;
 }
+
+#home-carousel {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
