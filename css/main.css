@@ -142,3 +142,11 @@ footer {
     height: auto;
     object-fit: cover;
 }
+
+carousel-control-next {
+    background-image: url(images/arrow.png);
+}
+
+carousel-control-rev {
+    background-image: url(images/arrowprev.png);
+}
