@@ -152,3 +152,15 @@ footer {
     width: 30px;
     height: 30px;
 }
+
+.gallery-img {
+    width: 100%;
+}
+
+#img-gallery {
+    padding-top: 10px;
+}
+
+#img-gallery .row {
+    margin-bottom: 10px;
+}
