@@ -165,6 +165,6 @@ footer {
     margin-bottom: 10px;
 }
 
-#gallery-img {
+.gallery-img {
     filter: blur(3px);
 }
