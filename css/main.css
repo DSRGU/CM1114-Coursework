@@ -155,6 +155,7 @@ footer {
 
 .gallery-img {
     width: 100%;
+    filter: blur(3px);
 }
 
 #img-gallery {
@@ -163,8 +164,4 @@ footer {
 
 #img-gallery .row {
     margin-bottom: 10px;
-}
-
-.gallery-img {
-    filter: blur(3px);
 }
