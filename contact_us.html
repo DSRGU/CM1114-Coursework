@@ -29,7 +29,7 @@
             <div id="left-col">
                 <form>
                     <fieldset>
-
+            
                         <label for="name">Name:</label>
                         <input type="text" name="name" value="" /> <br />
                         <label for="email">Email:</label>
@@ -43,20 +43,20 @@
                         <input type="text" name="comment" value="" /> <br />
                         <label for="file">Attach file(s):</label>
                         <input type="file" name="file" multiple>
-                        <!--- <button type="button" onclick='document.getElementById("form_outcome").innerHTML="Form has been sent successfully!"'>Submit</button> -->
-
-                        <button type="button"
-                            onclick='send_form()'>Submit
-                        </button>
+                        <button type="button" onclick='send_form("form_outcome", "Form has been sent successfully!")'>Submit</button>
                     </fieldset>
                 </form>
                 <div>
                     <p id="form_outcome"></p>
                 </div>
-                <div>
-                    <p></p>
-                </div>
             </div>
+            
+            <script>
+            function send_form(id, text) {
+                document.getElementById(id).innerHTML = text;
+            }
+            </script>
+            
             <div id="right-col">
                 <img src="images/twitter.jpg" alt="twitter" />
             </div>
