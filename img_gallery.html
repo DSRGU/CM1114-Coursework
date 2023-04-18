@@ -11,16 +11,6 @@
 </head>
 
 <body>
-    <script>
-        document.getElementById("image").addEventListener("mouseover", highlight);
-        document.getElementById("image").addEventListener("mouseout", delight);
-        function highlight() {
-            document.getElementById("image").style="border: solid blue 2px;"
-        }
-        function delight() {
-            document.getElementById("image").style="border: none;"
-        }
-    </script>
     <header>
         <img src="images/logo.jpg" id="logo" alt="logo" />
         <h1>Car Society</h1>
@@ -40,35 +30,35 @@
         <div id="img-gallery" class="container">
             <div class="row">
                 <div class="col-sm">
-                    <img id="image" src="images/Miata.jpg" class="gallery-img" />
+                    <img src="images/Miata.jpg" alt="Miata" class="gallery-img" onmouseover="this.style.border='solid blue 2px';" onmouseout="this.style.border='none'; this.classList.add('blur');"/>
                 </div>
                 <div class="col-sm">
-                    <img src="images/240z.jpg" class="gallery-img" />
+                    <img src="images/240z.jpg" alt="240z" class="gallery-img" onmouseover="this.style.border='solid blue 2px';" onmouseout="this.style.border='none'; this.classList.add('blur');" />
                 </div>
                 <div class="col-sm">
-                    <img src="images/CarMeet.jpg" class="gallery-img" />
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm">
-                    <img src="images/BRZ.jpg" class="gallery-img" />
-                </div>
-                <div class="col-sm">
-                    <img src="images/CarMeet2.jpg" class="gallery-img" />
-                </div>
-                <div class="col-sm">
-                    <img src="images/E30.jpg" class="gallery-img" />
+                    <img src="images/CarMeet.jpg" alt="Car Meet" class="gallery-img" onmouseover="this.style.border='solid blue 2px';" onmouseout="this.style.border='none'; this.classList.add('blur');" />
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm">
-                    <img src="images/924.jpg" class="gallery-img" />
+                    <img src="images/BRZ.jpg" alt="BRZ" class="gallery-img" onmouseover="this.style.border='solid blue 2px';" onmouseout="this.style.border='none'; this.classList.add('blur');" />
                 </div>
                 <div class="col-sm">
-                    <img src="images/Gt86.jpg" class="gallery-img" />
+                    <img src="images/CarMeet2.jpg" alt="Car Meet" class="gallery-img" onmouseover="this.style.border='solid blue 2px';" onmouseout="this.style.border='none'; this.classList.add('blur');" />
                 </div>
                 <div class="col-sm">
-                    <img src="images/Rx7.jpg" class="gallery-img" />
+                    <img src="images/E30.jpg" alt="E30" class="gallery-img" onmouseover="this.style.border='solid blue 2px';" onmouseout="this.style.border='none'; this.classList.add('blur');" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <img src="images/924.jpg" alt="924" class="gallery-img" onmouseover="this.style.border='solid blue 2px';" onmouseout="this.style.border='none'; this.classList.add('blur');" />
+                </div>
+                <div class="col-sm">
+                    <img src="images/Gt86.jpg" alt="Gt86" class="gallery-img" onmouseover="this.style.border='solid blue 2px';" onmouseout="this.style.border='none'; this.classList.add('blur');" />
+                </div>
+                <div class="col-sm">
+                    <img src="images/Rx7.jpg" alt="Rx7" class="gallery-img" onmouseover="this.style.border='solid blue 2px';" onmouseout="this.style.border='none'; this.classList.add('blur');" />
                 </div>
             </div>
 
