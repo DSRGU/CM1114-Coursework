@@ -17,7 +17,18 @@
         <form id="login">
             <input type="text" name="email" value="" />
             <input type="text" name="password" value="" />
-            <button type="submit">Login</button>
+            <button type="button" onclick="alert('You have been logged in!')">Login</button>
+            <script>
+                var counter = 2;
+                function login(){
+                    if(counter % 2 == 0){
+                        alert('You have been logged in!');
+                    }
+                    else{
+                    alert ('You have been logged out!');
+                    }
+                }   
+            </script>
         </form>
     </header>
 

@@ -11,6 +11,16 @@
 </head>
 
 <body>
+    <script>
+        document.getElementById("img-gallery1").addEventListener("mouseover", highlight);
+        document.getElementById("img-gallery1").addEventListener("mouseout", delight);
+        function highlight() {
+            document.getElementById("img-gallery1").style="border: solid blue 2px;"
+        }
+        function delight() {
+            document.getElementById("img-gallery1").style="border: none;"
+        }
+    </script>
     <header>
         <img src="images/logo.jpg" id="logo" alt="logo" />
         <h1>Car Society</h1>
@@ -30,7 +40,7 @@
         <div id="img-gallery" class="container">
             <div class="row">
                 <div class="col-sm">
-                    <img src="images/Miata.jpg" class="gallery-img" />
+                    <img id="image" src="images/Miata.jpg" class="gallery-img" />
                 </div>
                 <div class="col-sm">
                     <img src="images/240z.jpg" class="gallery-img" />
