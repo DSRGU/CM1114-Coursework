@@ -50,7 +50,7 @@ table {
 }
 
 table td, table th {
-    border: 2px, solid, #F0F0F0;
+    border: 2px, solid, #000000;
 }
 
 table tr:nth-child(even) {
@@ -97,7 +97,7 @@ nav li {
 }
 
 nav li a {
-    color: #FFFFFF;
+    color: #000000;
     text-decoration: none;
 }
 
