@@ -165,3 +165,6 @@ footer {
     margin-bottom: 10px;
 }
 
+#images {
+    filter: blur(3px);
+}
