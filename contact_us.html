@@ -19,11 +19,15 @@
         <li class="active"><a href="current_members.html">Current Members</a></li>
         <li class="active"><a href="event_calendar.html">Events</a></li>
         <li class="active"><a href="contact_us.html">Contact us</a></li>
+        <li class="active"><a href="community.html">Community</a></li>
+        <li class="active"><a href="leaderboard.html">Leaderboard</a></li>
+        <li class="active"><a href="outside_society_events.html">Outside Society Events</a></li>
         </br>
     </nav>
 
     <main>
         <div>
+            <!--Form and twitter image-->
             <h3>Contact Us</h3>
             <p>Use the form below, or follow us on social media</p>
             <div id="left-col">
@@ -43,18 +47,18 @@
                         <input type="text" name="comment" value="" /> <br />
                         <label for="file">Attach file(s):</label>
                         <input type="file" name="file" multiple>
-                        <button type="button" onclick='send_form("form_outcome", "Form has been sent successfully!")'>Submit</button>
+                        <button type="button" onclick='send_form()'>Submit</button>
                     </fieldset>
                 </form>
                 <div>
                     <p id="form_outcome"></p>
                 </div>
             </div>
-            
+            <!--script for button-->
             <script>
-            function send_form(id, text) {
-                document.getElementById(id).innerHTML = text;
-            }
+                function send_form(id, text) {
+                    alert("Form has been sent successfully!");
+                }
             </script>
             
             <div id="right-col">
