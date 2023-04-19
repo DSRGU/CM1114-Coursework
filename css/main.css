@@ -214,7 +214,7 @@ footer {
 
 /*leaderboard*/
 
-.lead_row {
+.leaderboard {
     position: relative;
     display: block;
     width: 100%;
@@ -224,7 +224,8 @@ footer {
     border: solid;
 }
 
-.lead_row :hover {
+
+.lead_row:hover {
     background-color: #000000;
     color: #72bcd4;
     border: #ffffff;
@@ -249,8 +250,4 @@ footer {
     display: inline-block;
     width: 30%;
     text-align: center;
-}
-
-#com-event {
-    padding: 10px;
 }
