@@ -87,7 +87,7 @@ table tr:hover {
 
 table th {
     background-color: #72d4bb;
-    color: #F0F0F0;
+    color: #000000;
 }
 
 header {
@@ -206,4 +206,38 @@ footer {
 
 .home-carousel1 {
     height: 800!important;
+}
+
+
+
+/*leaderboard*/
+
+.lead_row {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid #AFAFAF;
+    text-align: center;
+}
+
+#leaderboard {
+	width: auto;
+	height: 800;
+    text-align: center;
+}
+
+.name {
+	position: relative;
+	display: inline-block;
+    line-height: 50px;
+	width: 80%;
+    text-align: center;
+}
+
+.score {
+	position: relative;
+	display: inline-block;
+	width: 30%;
+    text-align: center;
 }
