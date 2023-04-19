@@ -169,11 +169,11 @@ footer {
 }
 
 .home-carousel {
-    height: 800!important;
+    height: 800 !important;
 }
 
 .carousel-item {
-    height: 800!important;
+    height: 800 !important;
 }
 
 .carousel-control-next img {
@@ -199,13 +199,15 @@ footer {
 #img-gallery .row {
     margin-bottom: 10px;
 }
+
 /*communtiy page*/
-#com-title, #com-para {
+#com-title,
+#com-para {
     text-align: center;
 }
 
 .home-carousel1 {
-    height: 800!important;
+    height: 800 !important;
 }
 
 
@@ -213,10 +215,10 @@ footer {
 /*leaderboard*/
 
 .lead_row {
-	position: relative;
-	display: block;
-	width: 100%;
-	height: 100px;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100px;
     text-align: center;
     background-color: #72bcd4;
     border: solid;
@@ -229,22 +231,22 @@ footer {
 }
 
 #leaderboard {
-	width: auto;
-	height: 800;
+    width: auto;
+    height: 800;
     text-align: center;
 }
 
 .name {
-	position: relative;
-	display: inline-block;
+    position: relative;
+    display: inline-block;
     line-height: 50px;
-	width: 80%;
+    width: 80%;
     text-align: center;
 }
 
 .score {
-	position: relative;
-	display: inline-block;
-	width: 30%;
+    position: relative;
+    display: inline-block;
+    width: 30%;
     text-align: center;
 }

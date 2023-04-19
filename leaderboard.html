@@ -19,7 +19,7 @@
 
     <nav>
         <ol>
-        <!--Navigation menu-->
+            <!--Navigation menu-->
             <li class="active"><a href="index.html">Home</a></li>
             <li class="active"><a href="img_gallery.html">Gallery</a></li>
             <li class="active"><a href="current_members.html">Current Members</a></li>
@@ -28,7 +28,7 @@
             <li class="active"><a href="community.html">Community</a></li>
             <li class="active"><a href="leaderboard.html">Leaderboard</a></li>
             <li class="active"><a href="community_events.html">Community Events</a></li>
-            
+
         </ol>
         <br>
         <br>
@@ -37,52 +37,59 @@
     <main>
         <h3>Trackday Leaderboard</h3>
         <p>This leaderboard is for our end of semester trackday and is recorded in seconds</p>
-
+        <!--leaderboard-->
         <div>
             <div id="leaderboard">
                 <div class="lead_row">
-                    <div class="lead_name">Daniel</div><div class="score">300</div>
-                </div>
-                
-                <div class="lead_row">
-                    <div class="lead_name">Member 1</div><div class="score">301</div>
-                </div>
-                
-                <div class="lead_row">
-                    <div class="lead_name">Member 2</div><div class="score">303</div>
-                </div>
-                
-                <div class="lead_row">
-                    <div class="lead_name">Member 3</div><div class="score">307</div>
-                </div>
-                
-                <div class="lead_row">
-                    <div class="lead_name">Member 4</div><div class="score">310</div>
+                    <div class="lead_name">Daniel</div>
+                    <div class="score">300</div>
                 </div>
 
                 <div class="lead_row">
-                    <div class="lead_name">Member 5</div><div class="score">325</div>
+                    <div class="lead_name">Member 1</div>
+                    <div class="score">301</div>
+                </div>
+
+                <div class="lead_row">
+                    <div class="lead_name">Member 2</div>
+                    <div class="score">303</div>
+                </div>
+
+                <div class="lead_row">
+                    <div class="lead_name">Member 3</div>
+                    <div class="score">307</div>
+                </div>
+
+                <div class="lead_row">
+                    <div class="lead_name">Member 4</div>
+                    <div class="score">310</div>
+                </div>
+
+                <div class="lead_row">
+                    <div class="lead_name">Member 5</div>
+                    <div class="score">325</div>
                 </div>
             </div>
-            
+
         </div>
+        <!--time submission form-->
         <p>Want submit a time? Do it below</p>
-            <form name="track">
-                <label>Lap time in seconds:</label>
-                <input type="text" name="track_time" value="">
-                <button onclick="submitEvent()">Submit Time</button>
-                <script>
-                    function submit_event() {
-                        var title = document.forms["event"]["event_title"].value;
-                        if (title == "") {
-                            alert("An event must have a title!");
-                        }
-                        else {
-                            alert("Time submitted! The society will contact you soon to verify your time!");
-                        }
-    
+        <form name="track">
+            <label>Lap time in seconds:</label>
+            <input type="text" name="track_time" value="">
+            <button onclick="submitEvent()">Submit Time</button>
+            <script>
+                function submit_event() {
+                    var title = document.forms["event"]["event_title"].value;
+                    if (title == "") {
+                        alert("An event must have a title!");
                     }
-                </script>
+                    else {
+                        alert("Time submitted! The society will contact you soon to verify your time!");
+                    }
+
+                }
+            </script>
 
 
     </main>
