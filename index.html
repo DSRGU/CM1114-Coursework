@@ -22,6 +22,9 @@
             <input type="text" name="password" value="">
             <button type="button" onclick="login()">Login</button>
             <script>
+                var counter = 1;
+
+
                 function login() {
                     var email = document.forms["login"]["email"].value;
                     var password = document.forms["login"]["password"].value;
@@ -36,16 +39,15 @@
                     }
 
                 }
-                var counter = 2;
-                
+
                 function loginout() {
+                    counter ++;
                     if (counter % 2 == 0) {
                         alert('You have been logged in!');
                     }
                     else {
                         alert('You have been logged out!');
                     }
-                    counter += 1;
                 }
             </script>
         </form>
