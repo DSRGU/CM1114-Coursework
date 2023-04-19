@@ -200,6 +200,12 @@ footer {
     margin-bottom: 10px;
 }
 
-#com {
+h6 {
     text-align: center;
+    font-size: 25;
+}
+
+h5 {
+    text-align: center;
+    font-size: 13;
 }
