@@ -37,6 +37,26 @@
     <main>
         <h3>Trackday Leaderboard</h3>
         <p>This leaderboard is for our end of semester trackday and is recorded in seconds</p>
+        <div id="lead_form">
+            <!--time submission form-->
+            <p>Want submit a time? Do it below</p>
+            <form name="track">
+                <label>Lap time in seconds:</label>
+                <input type="text" name="track_time" value="">
+                <button onclick="submitEvent()">Submit Time</button>
+                <script>
+                    function submit_event() {
+                        var title = document.forms["event"]["event_title"].value;
+                        if (title == "") {
+                            alert("An event must have a title!");
+                        }
+                        else {
+                            alert("Time submitted! The society will contact you soon to verify your time!");
+                        }
+
+                    }
+                </script>
+        </div>
         <!--leaderboard-->
         <div>
             <div id="leaderboard">
@@ -70,31 +90,7 @@
                     <div class="score">325</div>
                 </div>
             </div>
-
-        </div>
-        <!--time submission form-->
-        <p>Want submit a time? Do it below</p>
-        <form name="track">
-            <label>Lap time in seconds:</label>
-            <input type="text" name="track_time" value="">
-            <button onclick="submitEvent()">Submit Time</button>
-            <script>
-                function submit_event() {
-                    var title = document.forms["event"]["event_title"].value;
-                    if (title == "") {
-                        alert("An event must have a title!");
-                    }
-                    else {
-                        alert("Time submitted! The society will contact you soon to verify your time!");
-                    }
-
-                }
-            </script>
-
-
     </main>
-
-    <aside></aside>
 
     <footer>
         <p>Copyright Daniel Scott 2023</p>
