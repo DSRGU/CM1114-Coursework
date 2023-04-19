@@ -15,25 +15,6 @@
         <!--Logo, title and login-->
         <img src="images/logo.jpg" id="logo" alt="logo" />
         <h1>Car Society</h1>
-        <form id="login">
-            <label for="email">Email:</label>
-            <input type="text" name="email" value=""> </input>
-            <label for="password">Password:</label>
-            <input type="text" name="password" value=""></input>
-            <script>
-                var counter = 2;
-                function login() {
-                    if (counter % 2 == 0) {
-                        alert('You have been logged in!');
-                    }
-                    else {
-                        alert('You have been logged out!');
-                    }
-                    counter += 1;
-                }   
-            </script>
-            <button type="button" onclick="login()">Login</button>
-        </form>
     </header>
 
     <nav>
@@ -56,8 +37,41 @@
     <main>
 
         <div>
-            
+            <div id="home-carousel" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#home-carousel" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#home-carousel" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#home-carousel" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <figure>
+                            <img class="d-block w-100" src="images/inverness.jpg" alt="Miata">
+                            <figcaption>Inverness</figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <figure>
+                            <img class="d-block w-100" src="images/stirling.jpg" alt="Car Meet">
+                            <figcaption>Car Meet in Stirling</figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <figure>
+                            <img class="d-block w-100" src="images/Knockhill.jpg" alt="Car Meet">
+                            <figcaption>Car Meet at Knockhill</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="carousel-control-prev" href="#home-carousel" role="button" data-bs-slide="prev">
+                    <img src="images/arrowprev.jpg" alt="Previous">
+                </div>
+                <div class="carousel-control-next" href="#home-carousel" role="button" data-bs-slide="next">
+                    <img src="images/arrow.jpg" alt="Next">
+                </div>
+            </div>
         </div>
+        
 
 
     </main>
