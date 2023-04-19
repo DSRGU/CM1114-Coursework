@@ -216,9 +216,10 @@ footer {
 	position: relative;
 	display: block;
 	width: 100%;
-	height: 40px;
+	height: 100px;
     text-align: center;
     background-color: #72bcd4;
+    border: solid;
 }
 
 #leaderboard {
