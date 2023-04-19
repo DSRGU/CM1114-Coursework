@@ -18,15 +18,15 @@ p {
     font-family: Times Arial;
     color: #000000;
 }
-
+/*Title*/
 h1 {
     font-size: 35pt;
 }
-
+/*Sub-title*/
 h3 {
     font-size: 25pt;
 }
-
+/*Normal writing*/
 p {
     font-size: 13pt;
 }
