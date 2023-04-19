@@ -72,6 +72,9 @@ table th:first-child {
 table td,
 table th {
     border: 2px, solid, #000000;
+    width: 150px;
+    font-size: 13pt;
+    padding: 10px;
 }
 
 table tr:nth-child(even) {
