@@ -28,19 +28,17 @@
                     if (email == "") {
                         alert("A login must have an email!");
                     }
-                    else {
-                        if (password == "") {
+                    else if (password == "") {
                             alert("A login must have a password!");
                         }
-                        else {
-                            loginout();
-
-                        }
+                    else {
+                        loginout();
                     }
 
                 }
+                var counter = 2;
+                
                 function loginout() {
-                    var counter = 2;
                     if (counter % 2 == 0) {
                         alert('You have been logged in!');
                     }
