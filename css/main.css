@@ -169,8 +169,12 @@ footer {
     object-fit: cover;
 }
 
+.home-carousel {
+    height: 800!important;
+}
+
 .carousel-item {
-    height: 800;
+    height: 800!important;
 }
 
 .carousel-control-next img {
