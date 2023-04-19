@@ -250,8 +250,11 @@ footer {
     text-align: center;
 }
 
-
-
 #lead_form {
     float: right;
+}
+
+#circuit {
+    height: auto;
+    width: 700px;
 }
