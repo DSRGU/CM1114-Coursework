@@ -20,10 +20,11 @@
             <input type="text" name="email" value="">
             <label>Password:</label>
             <input type="text" name="password" value="">
+            <button type="button" onclick="login()">Login</button>
             <script>
-                function submit_event() {
+                function login() {
                     var email = document.forms["login"]["email"].value;
-                    var password = document.forms["login"]["email"].value;
+                    var password = document.forms["login"]["password"].value;
                     var counter = 2;
                     if (email == "") {
                         alert("A login must have an email!");
@@ -33,7 +34,13 @@
                             alert("A login must have a password!");
                         }
                         else {
-                            function login() {
+                            loginout();
+
+                        }
+                    }
+
+                }
+                function loginout() {
                                 if (counter % 2 == 0) {
                                     alert('You have been logged in!');
                                 }
@@ -42,12 +49,7 @@
                                 }
                                 counter += 1;
                             }
-                        }
-                    }
-
-                }
             </script>
-            <button type="button" onclick="login()">Login</button>
         </form>
     </header>
 
