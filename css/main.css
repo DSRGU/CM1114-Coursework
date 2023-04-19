@@ -200,12 +200,6 @@ footer {
     margin-bottom: 10px;
 }
 
-h6 {
+#com-title, #com-para {
     text-align: center;
-    font-size: 25;
-}
-
-h5 {
-    text-align: center;
-    font-size: 13;
 }
