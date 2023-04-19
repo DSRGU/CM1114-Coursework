@@ -18,14 +18,17 @@ p {
     font-family: Times Arial;
     color: #000000;
 }
+
 /*Title*/
 h1 {
     font-size: 35pt;
 }
+
 /*Sub-title*/
 h3 {
     font-size: 25pt;
 }
+
 /*Normal writing*/
 p {
     font-size: 13pt;
@@ -49,11 +52,22 @@ footer {
 .active {
     background-color: #72bcd4;
 }
+
 /*event table*/
 table {
     font-family: Times Arial;
     border-collapse: collapse
 }
+
+table tr:first-child th {
+    text-align: center;
+}
+
+table th:first-child {
+    vertical-align: middle;
+}
+
+
 
 table td,
 table th {
@@ -87,6 +101,7 @@ header {
 h1 {
     display: inline;
 }
+
 /*Navigation menu*/
 nav ul {
     margin: 0;
@@ -111,6 +126,7 @@ nav li a {
 nav li:hover {
     background-color: #ffffff;
 }
+
 /*contact us*/
 #left-col {
     float: left;
@@ -143,6 +159,7 @@ main {
 footer {
     margin: 3px;
 }
+
 /*image carousel index page*/
 #home-carousel {
     width: 100%;
@@ -159,6 +176,7 @@ footer {
     width: 30px;
     height: 30px;
 }
+
 /*image gallery*/
 .gallery-img {
     width: 100%;
